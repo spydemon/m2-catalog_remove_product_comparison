@@ -1,0 +1,26 @@
+{
+  "name": "spydemon/m2-catalog_remove_product_comparison",
+  "description": "Remove everything relevant to the product comparision on a Magento 2 website",
+  "homepage": "https://github.com/spydemon/m2-catalog_remove_product_comparison",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Kevin Hagner (Spydemon)",
+      "email": "jsaipakoimetr@spyzone.fr"
+    }
+  ],
+  "licence": [
+    "MIT"
+  ],
+  "require": {
+    "magento/product-community-edition": "2.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Spydemon\\CatalogRemoveProductComparison\\": ""
+    }
+  }
+}
